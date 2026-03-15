@@ -1,4 +1,4 @@
-const BASE = '/api'
+const BASE = process.env.DOMAIN_URL
 
 // ── Token helpers ────────────────────────────────────
 const getToken = () => localStorage.getItem('token')
